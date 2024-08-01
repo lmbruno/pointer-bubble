@@ -1,3 +1,10 @@
+import { FollowMouse } from './components/FollowMouse';
+import './style.css';
+
 export function App() {
-  return <h1>Bienvenido a mi aplicacion</h1>;
+  return (
+    <main style={{ display: 'grid', placeContent: 'center' }}>
+      <FollowMouse></FollowMouse>
+    </main>
+  );
 }
